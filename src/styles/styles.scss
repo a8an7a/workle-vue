@@ -12,6 +12,7 @@ body {
         weight: 400;
         family: $brand-font-family;
     }
+
     color: $brand-font-black;
 }
 
@@ -38,8 +39,8 @@ body {
 
 .brand-link {
     font-weight: 700;
-    text-decoration: none;
     color: $brand-font-black;
+    text-decoration: none;
 
     &:hover {
         color: $brand-font-black;
@@ -65,7 +66,6 @@ body {
     &__header {
         display: flex;
         align-items: center;
-        
         padding: 10px;
     }
 
@@ -209,3 +209,5 @@ body {
         }
     }
 }
+
+@import 'loader';
